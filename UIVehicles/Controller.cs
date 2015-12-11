@@ -177,9 +177,7 @@ namespace UIVehicles
                     thereAreNoPossibleLanes(TypeVehicleBox, LaneNumberBox, FuelTypeBox, StartSpeedTextBox, MaxSpeedTextBox, FuelRateTextBox, FuelCapacityTextBox);
                     FuelTypeBox.Items.Clear();
                     FuelTypeBox.Items.Add("электричество");
-
-
-
+                 
                     FuelRateTextBox.Text = "0";
                     FuelRateTextBox.ReadOnly = true;
                     FuelCapacityTextBox.ReadOnly = true;
